@@ -79,7 +79,9 @@ get_header(); ?>
 
     <div class="span4">
       <div class="well orange">
-
+        <a href="#">
+            <img src="<?php bloginfo ( 'template_url' ) ?>/img/sblack.png" class="img-rounded">
+        </a>
       </div>
     </div>
     <div class="span4">
