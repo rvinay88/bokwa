@@ -15,7 +15,7 @@ get_header(); ?>
 
           <center>
             <a href="#">
-              <img src="<?php bloginfo ( 'template_url' ) ?>/img/logo.png">
+              <img src="<?php bloginfo ( 'template_url' ) ?>/img/logo.png" class="logo">
             </a>
           </center>
         </div>
@@ -93,7 +93,7 @@ get_header(); ?>
     </div>
     <div class="span4">
       <div class="well green">
-        <a href="#">
+        <a href="<?php echo home_url( '/' ); ?>bokwa">
           <img src="<?php bloginfo ( 'template_url' ) ?>/img/bokwa2.png" class="img-rounded">
         </a>
       </div>

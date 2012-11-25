@@ -14,22 +14,11 @@
 <div class="container">
 	<div class="row">
 	<div class="span12">
-		<div class="span11 well">
+		<center>
 		
-          <?php
-           /** Loading The FooterMenu  **/
-           wp_nav_menu( array(
-              'menu'            => 'footer-menu',
-              'menu_class'      => 'footer-menu',
-              'menu_id' => 'footer-menu',
-              'walker' => new Bootstrapwp_Walker_Nav_Menu()
-          ) ); ?>
-
-          <br><br>
-
-          <p>&copy; <?php bloginfo('name'); ?> <?php the_time('Y') ?></p>	
-          
-          	</div><!--span11 well-->
+          <p align="center">&copy; <?php bloginfo('name'); ?> <?php the_time('Y') ?></p>	
+      </center>
+        
 	</div><!--span12-->
 
     </div> <!--row-->

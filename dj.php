@@ -15,7 +15,7 @@ get_header(); ?>
 
           <center>
             <a href="#">
-              <img src="<?php bloginfo ( 'template_url' ) ?>/img/logo.png">
+              <img src="<?php bloginfo ( 'template_url' ) ?>/img/logo.png" class="logo">
             </a>
           </center>
         </div>

@@ -15,7 +15,7 @@ get_header(); ?>
 
           <center>
             <a href="#">
-              <img src="<?php bloginfo ( 'template_url' ) ?>/img/logo.png">
+              <img src="<?php bloginfo ( 'template_url' ) ?>/img/logo.png" class="logo">
             </a>
           </center>
         </div>
@@ -70,10 +70,22 @@ get_header(); ?>
                   <ul class="slides">
 
                     <li>
-                      <img src="<?php bloginfo ( 'template_url' ) ?>/img/dj/2.jpg" class="img-polaroid" />
+                      <img src="<?php bloginfo ( 'template_url' ) ?>/img/show/1.jpg" class="img-polaroid" />
                     </li>
                     <li>
-                      <img src="<?php bloginfo ( 'template_url' ) ?>/img/dj/3.jpg" class="img-polaroid" />
+                      <img src="<?php bloginfo ( 'template_url' ) ?>/img/show/2.jpg" class="img-polaroid" />
+                    </li>
+                    <li>
+                      <img src="<?php bloginfo ( 'template_url' ) ?>/img/show/3.jpg" class="img-polaroid" />
+                    </li>
+                    <li>
+                      <img src="<?php bloginfo ( 'template_url' ) ?>/img/show/4.jpg" class="img-polaroid" />
+                    </li>
+                    <li>
+                      <img src="<?php bloginfo ( 'template_url' ) ?>/img/show/5.jpg" class="img-polaroid" />
+                    </li>
+                    <li>
+                      <img src="<?php bloginfo ( 'template_url' ) ?>/img/show/6.jpg" class="img-polaroid" />
                     </li>
 
                   </ul>
@@ -83,7 +95,7 @@ get_header(); ?>
                   <h2><?php the_title(); ?></h2>
 
                   <p>                  
-                  The team of DJ’s trained and employed under S Community have been spinning at leading corporate parties, events and shows. They are also resident DJ’s at various leading hotels in the city. They are equipped with latest software’s, remixes, Visual DJng, all needed to rock a party!
+                  Our team of consultants have put together many elaborate shows, ranging from product launches to wedding ceremonies. From forming the concept of the show, preproduction activities, postproduction activities, designing, sound & lights requirements we look into every detail and make the show a success!
                   </p>
 
 

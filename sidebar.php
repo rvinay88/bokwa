@@ -14,7 +14,7 @@
            
               <div class="media news-body">
    
-                  <h6 class="news-heading"><a href="<?php echo the_permalink ?>"> <?php echo the_title(); ?></a></h6>
+                  <h6 class="news-heading"><?php echo the_title(); ?></h6>
                     <em class="news-object"><?php echo the_excerpt(); ?></em>                       
    
               </div>
