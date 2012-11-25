@@ -39,6 +39,11 @@ function bootstrapwp_theme_setup() {
   register_nav_menus( array(
     'main-menu' => __( 'Main Menu', 'bootstrapwp' ),
   ) );
+  register_nav_menus( array(
+    'footer-menu' => __( 'Footer Menu', 'bootstrapwp' ),
+  ) );
+
+
   add_theme_support( 'post-formats', array( 'aside', 'image', 'gallery', 'link', 'quote', 'status', 'video', 'audio', 'chat' ) );
   /**
    * Declaring the theme language domain
@@ -515,3 +520,19 @@ function bootstrapwp_autoset_featured_img() {
 /**
  * This theme was built with PHP, Semantic HTML, CSS, love, and a bootstrap.
  */
+
+
+add_action( 'init', 'create_post_type_news' );
+function create_post_type_news() {
+  register_post_type( 'news',
+    array(
+      'labels' => array(
+        'name' => __( 'News' ),
+        'singular_name' => __( 'News' )
+      ),
+    'public' => true,
+    'has_archive' => true,
+    'supports' => array( 'title', 'editor', 'comments', 'excerpt', 'custom-fields', 'thumbnail' ),
+    )
+  );
+}

@@ -61,10 +61,17 @@
     <script type="text/javascript" charset="utf-8">
       $(window).load(function() {
         $('.flexslider').flexslider({animation: 'slide', controlNav: true, directionNav: true,});
+        $('.flexslider2').flexslider({animation: 'fade', controlNav: false, directionNav: true,});
       });
     </script>
 <!--script and css added for flex slider -->
-
+<!--initialize tabs-->
+      <script language="text/javascript">
+      $(window).load(function () {
+      $('#myTab a:last').tab('show');
+      });
+      </script>
+  <!--initialize tabs-->
 
     <?php wp_head(); ?>
   </head>

@@ -86,7 +86,7 @@ get_header(); ?>
     </div>
     <div class="span4">
       <div class="well pink">
-        <a href="#">
+        <a href="<?php echo home_url( '/' ); ?>zhumba">
           <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumbabig.png" class="img-rounded">
         </a>
       </div>

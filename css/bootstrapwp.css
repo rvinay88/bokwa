@@ -154,7 +154,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background: url('../img/bg/bg3.jpg') repeat top center scroll;
+  background: url('../img/bg/bokeh.jpg') repeat top center scroll;
 }
 a {
   color: #0088cc;
@@ -488,6 +488,12 @@ a:hover {
 }
 p {
   margin: 0 0 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.5;
+  padding: 8px;
+  text-align: justify;
 }
 .lead {
   margin-bottom: 20px;
@@ -3175,7 +3181,8 @@ input[type="submit"].btn.btn-mini {
 }
 .nav > li > a:hover {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: #ffc40d;
+  color: #000000;
 }
 .nav > .pull-right {
   float: right;
@@ -3273,7 +3280,7 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover {
   color: #555555;
-  background-color: #ffffff;
+  background-color: #ffd75a;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -3286,11 +3293,13 @@ input[type="submit"].btn.btn-mini {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  color: #ffc40d;
+  background-color: #000000;
 }
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover {
-  color: #ffffff;
-  background-color: #0088cc;
+  color: #000000;
+  background-color: #ffd75a;
 }
 .nav-stacked > li {
   float: none;
@@ -7131,4 +7140,38 @@ img.aligncenter {
   color: #333333;
   font-size: 1em;
   font-style: italic;
+}
+.footer-menu ul {
+  margin: 0 0 10px;
+}
+.footer-menu li {
+  float: left;
+  margin-right: 5px;
+  padding-right: 4px;
+  list-style: none;
+}
+.footer-menu li a {
+  color: #000000;
+  text-decoration: none;
+}
+.footer-menu li a:hover {
+  text-decoration: underline;
+}
+.news-body:hover {
+  background-color: #eeeeee;
+}
+em.news-object p {
+  font-family: arial;
+  font-size: 12px;
+  line-height: 1.5em;
+  font-weight: 200;
+  color: #555555;
+  text-align: justify;
+  font-style: normal;
+}
+h6.news-heading {
+  font-family: 'PT Sans', 'Myriad Pro', 'Lucida Grande', 'Lucida Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
 }
