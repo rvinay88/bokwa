@@ -78,18 +78,22 @@ get_header(); ?>
   <div class="row-fluid">
 
     <div class="span4">
-      <div class="well">
+      <div class="well orange">
 
       </div>
     </div>
     <div class="span4">
-      <div class="well">
-
+      <div class="well pink">
+        <a href="#">
+          <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumbabig.png" class="img-rounded">
+        </a>
       </div>
     </div>
     <div class="span4">
-      <div class="well">
-
+      <div class="well green">
+        <a href="#">
+          <img src="<?php bloginfo ( 'template_url' ) ?>/img/bokwa2.png" class="img-rounded">
+        </a>
       </div>
     </div>
   </div>
