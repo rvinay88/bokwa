@@ -154,7 +154,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background: url('../img/bg/greenbg.jpg') no-repeat center scroll;
+  background: url('../img/bg/bg3.jpg') repeat top center scroll;
 }
 a {
   color: #0088cc;
@@ -3876,7 +3876,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
   background-color: transparent;
-  color: #ffffff;
+  color: #ffd75a;
 }
 .navbar-inverse .nav .active > a,
 .navbar-inverse .nav .active > a:hover,
@@ -7119,4 +7119,16 @@ img.aligncenter {
   letter-spacing: -1px;
   text-align: center;
   margin-bottom: 9px;
+}
+.home-container {
+  text-align: justify;
+  color: #000000;
+}
+.home-container h2 {
+  text-align: left;
+}
+.home-container p {
+  color: #333333;
+  font-size: 1em;
+  font-style: italic;
 }

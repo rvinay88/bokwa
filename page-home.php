@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Home Hero Template with 3 widget areas
+ * Template Name: Home Page
  *
  *
  * @package WP-Bootstrap
@@ -107,7 +107,24 @@ get_header(); ?>
     <div class="row">
         <div class="span12">
 
-          <div class="well">
+          <div class="span11 well">
+
+              <div class="span3">
+                  <img src="<?php bloginfo ( 'template_url' ) ?>/img/dance.jpg" class="img-polaroid">
+              </div>
+              <div class="span7 home-container">
+                  <h2>Welcome to The S Community!</h2>
+
+                  
+<strong> The S Community </strong><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                  <strong> Over 1500 Stage shows </strong><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                  <strong> A strong Dance community </strong><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                  <strong> India's one and only certified Bokwa Instructor </strong><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+                  <div class="btn btn-info">
+                    Learn More
+                  </div>                    
+              </div>
 
           </div><!--well-->
 
