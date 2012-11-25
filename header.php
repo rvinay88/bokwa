@@ -48,6 +48,24 @@
   <!--[if lt IE 9]>
 <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+
+
+<!--script and css added for flex slider -->
+
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="<?php bloginfo( 'template_url' );?>/js/jquery.flexslider-min.js"></script>
+
+    <link rel="stylesheet" href="<?php bloginfo( 'template_url' );?>/css/flexslider.css" type="text/css" media="screen" />  
+
+     <!-- Target both sliders with the same properties -->
+    <script type="text/javascript" charset="utf-8">
+      $(window).load(function() {
+        $('.flexslider').flexslider({animation: 'slide', controlNav: true, directionNav: true});
+      });
+    </script>
+<!--script and css added for flex slider -->
+
+
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>  data-spy="scroll" data-target=".bs-docs-sidebar" data-offset="10">
