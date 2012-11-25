@@ -154,7 +154,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background: url('../img/bg/bokeh2.jpg') repeat top center scroll;
+  background: url('../img/bg/bokeh1.jpg') no-repeat top center scroll #000000;
 }
 a {
   color: #0088cc;
@@ -3181,7 +3181,7 @@ input[type="submit"].btn.btn-mini {
 }
 .nav > li > a:hover {
   text-decoration: none;
-  background-color: #126b65;
+  background-color: #00ceff;
   color: #000000;
 }
 .nav > .pull-right {
@@ -3280,7 +3280,7 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover {
   color: #555555;
-  background-color: #1daca3;
+  background-color: #4dddff;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -3293,13 +3293,13 @@ input[type="submit"].btn.btn-mini {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  color: #126b65;
+  color: #00ceff;
   background-color: #000000;
 }
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover {
   color: #000000;
-  background-color: #1daca3;
+  background-color: #4dddff;
 }
 .nav-stacked > li {
   float: none;
@@ -3875,29 +3875,29 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
-  color: #126b65;
+  color: #00ceff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 .navbar-inverse .brand:hover,
 .navbar-inverse .nav > li > a:hover {
-  color: #1daca3;
+  color: #4dddff;
 }
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
   background-color: transparent;
-  color: #1daca3;
+  color: #4dddff;
 }
 .navbar-inverse .nav .active > a,
 .navbar-inverse .nav .active > a:hover,
 .navbar-inverse .nav .active > a:focus {
-  color: #126b65;
+  color: #00ceff;
   background-color: #111111;
 }
 .navbar-inverse .navbar-link {
-  color: #126b65;
+  color: #00ceff;
 }
 .navbar-inverse .navbar-link:hover {
-  color: #1daca3;
+  color: #4dddff;
 }
 .navbar-inverse .divider-vertical {
   border-left-color: #111111;
@@ -7170,11 +7170,12 @@ em.news-object p {
   font-style: normal;
 }
 h6.news-heading {
-  font-family: 'PT Sans', 'Myriad Pro', 'Lucida Grande', 'Lucida Sans', sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.5;
   text-align: left;
-  color: #126b65;
+  color: #006780;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .logo {
   padding-top: 20px;

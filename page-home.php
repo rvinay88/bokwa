@@ -116,10 +116,10 @@ get_header(); ?>
                   <h2>Welcome to The S Community!</h2>
 
                   
-<strong> The S Community </strong><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                  <strong> Over 1500 Stage shows </strong><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                  <strong> A strong Dance community </strong><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                  <strong> India's one and only certified Bokwa Instructor </strong><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+<strong> The S Community </strong><p>With over 12 years of dance experience behind us, the S community is one of the most sophisticated and creative dance companies out there </p>
+                  <strong> Over 1500 Stage shows </strong><p>We handle pre production, post production, Sangeeth's, Decor, Sound & light and  game shows </p>
+                  <strong>DJ's to rock the house</strong><p>Our DJ's are a class apart. We freelance, some of us are resident DJ's. We handle concept parties, corporate parties, VDJ-ing</p>
+                  <strong> India's most elite trainers </strong><p>We are one of India's first and foremost certified Zumba trainers. Our Bokwa training is the ONLY certified training all over India</p>
 
                   <div class="btn btn-info">
                     Learn More
