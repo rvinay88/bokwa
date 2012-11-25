@@ -60,7 +60,7 @@
      <!-- Target both sliders with the same properties -->
     <script type="text/javascript" charset="utf-8">
       $(window).load(function() {
-        $('.flexslider').flexslider({animation: 'slide', controlNav: true, directionNav: true});
+        $('.flexslider').flexslider({animation: 'slide', controlNav: true, directionNav: true,});
       });
     </script>
 <!--script and css added for flex slider -->
@@ -68,28 +68,7 @@
 
     <?php wp_head(); ?>
   </head>
-  <body <?php body_class(); ?>  data-spy="scroll" data-target=".bs-docs-sidebar" data-offset="10">
-    <div class="navbar navbar-inverse navbar-relative-top">
-           <div class="navbar-inner">
-             <div class="container">
-           <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-          <?php
-           /** Loading WordPress Custom Menu  **/
-           wp_nav_menu( array(
-              'menu'            => 'main-menu',
-              'container_class' => 'nav-collapse',
-              'menu_class'      => 'nav',
-              'fallback_cb'     => '',
-              'menu_id' => 'main-menu',
-              'walker' => new Bootstrapwp_Walker_Nav_Menu()
-          ) ); ?>
-        </div>
-      </div>
-    </div>
+  
     <!-- End Header -->
               <!-- Begin Template Content -->
+<body <?php body_class(); ?>  data-spy="scroll" data-target=".bs-docs-sidebar" data-offset="10">              

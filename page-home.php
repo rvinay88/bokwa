@@ -14,52 +14,101 @@ get_header(); ?>
         <div class="span12">
 
           <center>
-            <img src="<?php bloginfo ( 'template_url' ) ?>/img/logo.png" class="img.aligncenter">
+            <a href="#">
+              <img src="<?php bloginfo ( 'template_url' ) ?>/img/logo.png">
+            </a>
           </center>
         </div>
     </div>
 
+<!--===========================Navbar=======================-->
+    <div class="navbar navbar-inverse navbar-relative-top">
+           <div class="navbar-inner">
+             <div class="container">
+           <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+          <?php
+           /** Loading WordPress Custom Menu  **/
+           wp_nav_menu( array(
+              'menu'            => 'main-menu',
+              'container_class' => 'nav-collapse',
+              'menu_class'      => 'nav',
+              'fallback_cb'     => '',
+              'menu_id' => 'main-menu',
+              'walker' => new Bootstrapwp_Walker_Nav_Menu()
+          ) ); ?>
+        </div>
+      </div>
+    </div>
+<!--===========================Navbar=======================-->
 
 <div class="container">
   <div class="marketing">
-  <div class="row-fluid">
-    
-
+  <div class="row">
+    <!--========SPACER======--><div class="span12">
+        <!--========SPACER======-->&nbsp;
+    <!--========SPACER======--></div>
     <div class="span12">
-        
+        <div class="well">
             <!--le awesome flex slider-->
         <div class="flexslider">
               <ul class="slides">
                 <li>
-                  <img src="<?php bloginfo ( 'template_url' ) ?>/img/kitchen_adventurer_cheesecake_brownie.jpg" />
+                  <img src="<?php bloginfo ( 'template_url' ) ?>/img/kitchen_adventurer_cheesecake_brownie.jpg" class="img-rounded" />
                 </li>
                 <li>
-                  <img src="<?php bloginfo ( 'template_url' ) ?>/img/kitchen_adventurer_lemon.jpg" />
+                  <img src="<?php bloginfo ( 'template_url' ) ?>/img/kitchen_adventurer_lemon.jpg" class="img-rounded" />
                 </li>
                 <li>
-                  <img src="<?php bloginfo ( 'template_url' ) ?>/img/kitchen_adventurer_donut.jpg" />
+                  <img src="<?php bloginfo ( 'template_url' ) ?>/img/kitchen_adventurer_donut.jpg" class="img-rounded" />
                 </li>
                 <li>
-                  <img src="<?php bloginfo ( 'template_url' ) ?>/img/kitchen_adventurer_caramel.jpg" />
+                  <img src="<?php bloginfo ( 'template_url' ) ?>/img/kitchen_adventurer_caramel.jpg" class="img-rounded" />
                 </li>
               </ul>
             </div><!--Le Awesome slider ends :( -->
-
+          </div><!--well-->
         
       </div><!--span12-->
     </div><!--row-->
   <div class="row-fluid">
 
     <div class="span4">
-      
+      <div class="well">
+
+      </div>
     </div>
     <div class="span4">
-      
+      <div class="well">
+
+      </div>
     </div>
     <div class="span4">
-      
+      <div class="well">
+
+      </div>
     </div>
   </div>
+  <!--========SPACER======--><div class="span12">
+        <!--========SPACER======-->
+    <!--========SPACER======--></div>
+    
+<!--======================bottom row======================-->
+    <div class="row">
+        <div class="span12">
+
+          <div class="well">
+
+          </div><!--well-->
+
+        </div><!--span12-->
+
+    </div><!--row-->
+    <!--======================bottom row======================-->
 </div><!-- /.marketing -->
 </div>
 <?php get_footer();?>
