@@ -60,7 +60,7 @@
      <!-- Target both sliders with the same properties -->
     <script type="text/javascript" charset="utf-8">
       $(window).load(function() {
-        $('.flexslider').flexslider({animation: 'slide', controlNav: true, directionNav: true,});
+        $('.flexslider').flexslider({animation: 'fade', controlNav: false, directionNav: false, slideshowSpeed: 4000, animationSpeed: 3000, randomize: true,});
         $('.flexslider2').flexslider({animation: 'fade', controlNav: false, directionNav: true,});
       });
     </script>

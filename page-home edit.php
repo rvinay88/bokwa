@@ -37,7 +37,7 @@ get_header(); ?>
 
 <ul class="ch-grid">
     <li>
-      <a href="http://localhost/bokwa/instructors/">
+      <a href="<?php bloginfo ( 'template_url' ) ?>instructors/">
         <div class="ch-item ch-img-1">
             <div class="ch-info">
                 <h3>Zumba, Bokwa, Bollywood, Kids</h3>
@@ -47,7 +47,7 @@ get_header(); ?>
       </a>
     </li>
     <li>
-      <a href="http://localhost/bokwa/performers/">
+      <a href="<?php bloginfo ( 'template_url' ) ?>performers/">
         <div class="ch-item ch-img-2">
             <div class="ch-info">
                 <h3>Contemporary, Jazz, Hip hop, Salsa, Bollywood and freestyle </h3>
@@ -57,7 +57,7 @@ get_header(); ?>
       </a>
     </li>
     <li>
-      <a href="http://localhost/bokwa/show-managers/">
+      <a href="<?php bloginfo ( 'template_url' ) ?>show-managers/">
         <div class="ch-item ch-img-3">
             <div class="ch-info">
                 <h3>Concept, Preproduction, Postproduction, Design, Sound, lights  </h3>
@@ -70,7 +70,7 @@ get_header(); ?>
 
 <ul class="ch-grid">
       <li>
-        <a href="http://localhost/bokwa/dj/">
+        <a href="<?php bloginfo ( 'template_url' ) ?>dj/">
           <div class="ch-item ch-img-4">
             <div class="ch-info">
                 <h3>House, techno</h3>
@@ -80,7 +80,7 @@ get_header(); ?>
         </a>
       </li>
       <li>
-        <a href="http://localhost/bokwa/choreographers/">
+        <a href="<?php bloginfo ( 'template_url' ) ?>choreographers/">
           <div class="ch-item ch-img-5">
               <div class="ch-info">
                   <h3>Schools, Colleges, Corporates, Competitions, flash mobs</h3>
