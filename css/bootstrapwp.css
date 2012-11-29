@@ -665,11 +665,10 @@ abbr.initialism {
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 20px;
-  border-left: 5px solid #eeeeee;
 }
 blockquote p {
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 300;
   line-height: 25px;
 }
@@ -2454,15 +2453,6 @@ table [class*=span],
 .well blockquote {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, 0.15);
-}
-.pink {
-  background-color: #d13854;
-}
-.green {
-  background-color: #316b1e;
-}
-.orange {
-  background-color: #ffaf00;
 }
 .well-large {
   padding: 24px;
@@ -7178,7 +7168,10 @@ h6.news-heading {
   text-transform: uppercase;
 }
 .logo {
-  padding-top: 20px;
+  padding-top: 10px;
+}
+.some {
+  padding-bottom: 10px;
 }
 .ch-grid {
   margin: 20px 0 0 0;
@@ -7220,8 +7213,18 @@ h6.news-heading {
   border-radius: 50%;
   overflow: hidden;
   opacity: 0;
-  transition: all 0.4s ease-in-out;
-  transform: scale(0);
+  /*transition: all 0.4s ease-in-out;*/
+
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  -moz-transform: scale(0) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -webkit-transform: scale(0) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -o-transform: scale(0) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -ms-transform: scale(0) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  transform: scale(0) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
 }
 .ch-info h3 {
   color: #fff;
@@ -7260,7 +7263,11 @@ h6.news-heading {
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 .ch-item:hover .ch-info {
-  transform: scale(1);
+  -moz-transform: scale(1) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -webkit-transform: scale(1) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -o-transform: scale(1) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  -ms-transform: scale(1) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+  transform: scale(1) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
   opacity: 1;
 }
 .ch-item:hover .ch-info p {
@@ -7280,4 +7287,22 @@ h6.news-heading {
 }
 .ch-img-5 {
   background-image: url('../img/home/5.jpg');
+}
+.pink {
+  background-color: #d13854;
+  padding: 12px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.green {
+  background-color: #316b1e;
+  padding: 12px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.orange {
+  background-color: #ffaf00;
+  padding: 12px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }

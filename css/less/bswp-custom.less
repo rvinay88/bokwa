@@ -61,7 +61,11 @@ h6.news-heading{
 }
 
 .logo{
-	padding-top: 20px;
+    padding-top: 10px;
+}
+
+.some{
+	padding-bottom: 10px;
 }
 
 .ch-grid {
@@ -111,8 +115,18 @@ h6.news-heading{
     border-radius: 50%;
     overflow: hidden;
     opacity: 0;
-    transition: all 0.4s ease-in-out;
-    transform: scale(0);
+    /*transition: all 0.4s ease-in-out;*/
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    
+    -moz-transform: scale(0) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -webkit-transform: scale(0) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -o-transform: scale(0) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -ms-transform: scale(0) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    transform: scale(0) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
 }
 
 .ch-info h3 {
@@ -161,11 +175,16 @@ h6.news-heading{
 }
 
 .ch-item:hover .ch-info {
-    transform: scale(1); 
+    -moz-transform: scale(1) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -webkit-transform: scale(1) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -o-transform: scale(1) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    -ms-transform: scale(1) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    transform: scale(1) rotate(deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);    
     opacity: 1;
 }
 .ch-item:hover .ch-info p {
     opacity: 1;
+
 }
 
 
@@ -188,3 +207,23 @@ h6.news-heading{
     background-image: url('../img/home/5.jpg');
 }
  
+//image backrounds
+ .pink{
+  background-color: @pink;
+  padding: 12px;
+  -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.green{
+  background-color: @green;
+  padding: 12px;
+  -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.orange{
+  background-color: @orange;
+  padding: 12px;
+  -webkit-border-radius: 10px;
+    border-radius: 10px;
+}

@@ -16,7 +16,14 @@ get_header(); ?>
           <center>
             <a href="#">
               <img src="<?php bloginfo ( 'template_url' ) ?>/img/logo.png" class="logo">
-            </a>
+            </a>  
+              <br>
+                 <a href="http://www.facebook.com">
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/some/facebook.png" class="some">
+                </a>
+                <a href="http://www.twitter.com">
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/some/twitter.png" class="some">
+                </a>
           </center>
         </div>
     </div>
@@ -64,7 +71,7 @@ get_header(); ?>
 
           <div class="span11 well">
 
-              <div class="span7 home-container">
+              <div class="span6 home-container">
                   <h2><?php echo the_title(); ?></h2>
                     <p>
                       Our instructors are divided into the below three categories. Click on each link to know more...
@@ -72,44 +79,72 @@ get_header(); ?>
                         <div class="accordion-group">
                           <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                              1. Kids
+                              1. Zumba
                             </a>
                           </div>
                           <div id="collapseOne" class="accordion-body collapse">
                             <div class="accordion-inner">
-                              <p>Zumbatomic is a specially designed class for children (ages 4 – 12) to encourage kids to develop a healthy lifestyle and to incorporate fitness as a natural part of their lives through dance, music and exercise. Kids will learn cool dance steps and routines while listening to kid friendly songs.</p>
+                              <a href="<?php echo home_url( '/' ); ?>zhumba"><img src="<?php bloginfo ( 'template_url' ) ?>/img/zumbabig.png" class="pink img-rounded"></a>
+                              <p>Zumba is the only Latin-inspired dance that blends red-hot international music, created by Grammy Award-winning producers, and contagious steps to form a "fitness-party" that is downright addictive. Zumba involves dance and aerobic elements. Zumba's choreography incorporates hip-hop, soca, samba, salsa, merengue, mambo, martial arts, and some Bollywood and belly dance moves. Squats and lunges are also included.</p>
                             </div>
                           </div>
                         </div>
                         <div class="accordion-group">
                           <div class="accordion-heading">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                              2. Bollywood
+                              2. Bokwa
                             </a>
                           </div>
                           <div id="collapseTwo" class="accordion-body collapse">
                             <div class="accordion-inner">
-                              <p>This module is uniquely designed and executed by the “S” community where the participant learns the appropriate  dance moves to latest Bollywood numbers in a span of either 8 or 12 classes. A class starts with a warm up, moves to recap the previous routines, and then to New routines for the day, and finally ends with Cool down. End of every course the participant, learns to dance for the full song, chosen for the particular month.This class provides a combination of learning to dance whilst exercising.</p>
+                              <a href="<?php echo home_url( '/' ); ?>bokwa"><img src="<?php bloginfo ( 'template_url' ) ?>/img/bokwa2.png" class="green img-rounded"></a>
+                              <p>Bokwa Fitness is an exercise dance class that combines cardio conditioning, strength training and flexibility. Furthermore, it integrates customary African dance with boxing maneuvers. The name came from a combination of two other words; “BO” stands for light boxing and “KWA” symbolizes the traditional dance Kwaito.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="accordion-group">
+                          <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                              3. Kids
+                            </a>
+                          </div>
+                          <div id="collapseThree" class="accordion-body collapse">
+                            <div class="accordion-inner">
+                              <p>Zumbatomic is a specially designed class for children (ages 4 – 12) to encourage kids to develop a healthy lifestyle and to incorporate fitness as a natural part of their lives through dance, music and exercise. Kids will learn cool dance steps and routines while listening to kid friendly songs.</p>
                             </div>
                           </div>
                         </div>  
 
                         <div class="accordion-group">
                           <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                              3. Hip Hop
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+                              4. Bollywood
                             </a>
                           </div>
-                          <div id="collapseThree" class="accordion-body collapse">
+                          <div id="collapseFour" class="accordion-body collapse">
                             <div class="accordion-inner">
-                             <p>Lorem Ipsum dolor sit amet Hip Hop </p>
+                             <p>This module is uniquely designed and executed by the “S” community where the participant learns the appropriate  dance moves to latest Bollywood numbers in a span of either 8 or 12 classes. A class starts with a warm up, moves to recap the previous routines, and then to New routines for the day, and finally ends with Cool down. End of every course the participant, learns to dance for the full song, chosen for the particular month. This class provides a combination of learning to dance whilst exercising.</p>
                             </div>
                           </div>
                         </div>
-                      </div>
 
-                    </p>
-              </div>
+                      </div><!--accordion-->
+
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                  </div>
+
+
+
+
+              
 
               <?php get_sidebar('page'); ?>
 

@@ -16,7 +16,14 @@ get_header(); ?>
           <center>
             <a href="#">
               <img src="<?php bloginfo ( 'template_url' ) ?>/img/logo.png" class="logo">
-            </a>
+            </a>  
+              <br>
+                 <a href="http://www.facebook.com">
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/some/facebook.png" class="some">
+                </a>
+                <a href="http://www.twitter.com">
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/some/twitter.png" class="some">
+                </a>
           </center>
         </div>
     </div>

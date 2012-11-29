@@ -16,7 +16,14 @@ get_header(); ?>
           <center>
             <a href="#">
               <img src="<?php bloginfo ( 'template_url' ) ?>/img/logo.png" class="logo">
-            </a>
+            </a>  
+              <br>
+                 <a href="http://www.facebook.com">
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/some/facebook.png" class="some">
+                </a>
+                <a href="http://www.twitter.com">
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/some/twitter.png" class="some">
+                </a>
           </center>
         </div>
     </div>
@@ -71,7 +78,7 @@ get_header(); ?>
                       </ul>
 
                       <div id="myTabContent" class="tab-content">
-                        <div class="tab-pane fade active in" id="zumba">
+                        <div class="tab-pane fade active in" id="bokwa">
                               <div class="span2">
                                   <img src="<?php bloginfo ( 'template_url' ) ?>/img/bokwa/bokwa.png" class="img-rounded img-polaroid">
                               </div>
