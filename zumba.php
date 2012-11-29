@@ -79,6 +79,7 @@ get_header(); ?>
                         <li class=""><a href="#aqua_zumba" data-toggle="tab">Aqua Zumba</a></li>
                         <li class=""><a href="#zumbatomic" data-toggle="tab">Zumbatomic</a></li>
                         <li class=""><a href="#zumba-activities" data-toggle="tab">Zumba Activities</a></li>
+                        <li class="active"><a href="#testimonials" data-toggle="tab">Testimonials</a></li>
                         
                       </ul>
 
@@ -106,6 +107,9 @@ get_header(); ?>
                         <div class="tab-pane fade" id="zumba-activities">
                           <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
                         </div>
+                        <div class="tab-pane fade" id="testimonials">
+                          <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                        </div>                        
                       </div>
                       <!--=============================================The Tabs=============================================-->
                       

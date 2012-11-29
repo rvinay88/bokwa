@@ -40,7 +40,7 @@ get_header(); ?>
 <div class="span12">
 
               <!--le awesome flex slider-->
-        <div class="flexslider">
+        <div class="flexslider2">
               <ul class="slides">
                 <li>
                   <img src="<?php bloginfo ( 'template_url' ) ?>/img/home/slides/1.jpg" class="img-rounded" />

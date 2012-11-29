@@ -7305,3 +7305,15 @@ h6.news-heading {
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
+.ins-1 {
+  background: url(../img/ins/1.png) no-repeat;
+}
+.ins-2 {
+  background: url(../img/ins/2.png) no-repeat;
+}
+.ins-3 {
+  background: url(../img/ins/3.png) no-repeat;
+}
+.ins-4 {
+  background: url(../img/ins/4.png) no-repeat;
+}

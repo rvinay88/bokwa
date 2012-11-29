@@ -61,9 +61,8 @@ get_header(); ?>
     <!--========SPACER======--></div>
 
     </div><!--row-->
-  <!--========SPACER======--><div class="span12">
-        <!--========SPACER======-->
-    <!--========SPACER======--></div>
+
+
     
 <!--======================bottom row======================-->
     <div class="row">
@@ -71,10 +70,20 @@ get_header(); ?>
 
           <div class="span11 well">
 
+            <div class="span6 home-container">
+              <h2><?php echo the_title(); ?></h2>
+              <p>Our instructors are divided into the below three categories. Click on each link to know more...</p>
+                
+                  <a href="<?php echo home_url( '/' ); ?>zhumba"><img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/zumbabig.png" class="pink img-rounded"></a>
+                
+                  
+                  <a href="<?php echo home_url( '/' ); ?>bokwa"><img src="<?php bloginfo ( 'template_url' ) ?>/img/bokwa2.png" class="green img-rounded"></a>
+                
+            </div>    
+
               <div class="span6 home-container">
-                  <h2><?php echo the_title(); ?></h2>
-                    <p>
-                      Our instructors are divided into the below three categories. Click on each link to know more...
+                  
+                    
                       <div class="accordion" id="accordion2">
                         <div class="accordion-group">
                           <div class="accordion-heading">
@@ -84,7 +93,7 @@ get_header(); ?>
                           </div>
                           <div id="collapseOne" class="accordion-body collapse">
                             <div class="accordion-inner">
-                              <a href="<?php echo home_url( '/' ); ?>zhumba"><img src="<?php bloginfo ( 'template_url' ) ?>/img/zumbabig.png" class="pink img-rounded"></a>
+                              <a href="<?php echo home_url( '/' ); ?>zhumba"><img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/zumbabig.png" class="pink img-rounded"></a>
                               <p>Zumba is the only Latin-inspired dance that blends red-hot international music, created by Grammy Award-winning producers, and contagious steps to form a "fitness-party" that is downright addictive. Zumba involves dance and aerobic elements. Zumba's choreography incorporates hip-hop, soca, samba, salsa, merengue, mambo, martial arts, and some Bollywood and belly dance moves. Squats and lunges are also included.</p>
                             </div>
                           </div>

@@ -536,3 +536,18 @@ function create_post_type_news() {
     )
   );
 }
+
+
+add_action ('init', 'add_post_testimonials');
+function add_post_testimonials() {
+  register_post_type( 'testimonials',
+    array(
+      'labels' => array(
+            'name' => __('testimonials'),
+            'singular_name' => __('testimonial')
+      ),
+    'public' => true,
+    'supports' => array('featured', 'title','editor', 'excerpt', 'thumbnail'),
+    )
+  );
+}
