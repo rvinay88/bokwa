@@ -108,7 +108,26 @@ get_header(); ?>
                           <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
                         </div>
                         <div class="tab-pane fade active in" id="testimonials">
-                          <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                          
+                          <!--le awesome flex slider-->
+                            <div class="flexslider span6">
+                                  <ul class="slides">
+                                    <li>
+                                      <blockquote>
+                                        <p>Zumba is a fun way of doing a high impact cardio workout, so what is most imp is enjoying it, which makes strain and stress take a back seat, and before you realize, the one hour of jumping and jiving is done. For this,  one requires a good Zumba instructor like Senthil who can keep you in grip with the right kind of enjoyable steps coordinated with high calorie-burning.   Senthil sir's Zumba is full of life, smiles and the music, songs n steps changing every month, which doesn't make the routine boring. He himself is an ace Zumba sir, highly qualified in the art n makes his presence  in every class worthwhile! I am personally addicted to this workout because there is something new to look out for each month, it's fun, there's a lot of positive energy involved and a fun way to kickstart the day. 3 cheers to Senthil sir n his team
+                                        
+                                        </p>
+                                        <small>Jyothika Surya, Actress</small>
+                                      </blockquote>
+                                    </li>
+                                    <li>
+                                      <blockquote>
+                                        <p>Senthil sir's Zumba is full of life, smiles and the music...He is an ace Zumba sir, highly qualified with a lot of positive energy</p>
+                                        <small>Suhasini Mani Ratnam, Feminist</small>
+                                      </blockquote>
+                                    </li>
+                                  </ul>
+                                </div><!--Le Awesome slider ends :( -->
                         </div>                        
                       </div>
                       <!--=============================================The Tabs=============================================-->
