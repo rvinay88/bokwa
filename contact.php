@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Bollywood Page
+ * Template Name: Contact Page
  *
  *
  * @package WP-Bootstrap
@@ -14,7 +14,7 @@ get_header(); ?>
         <div class="span12">
 
           <center>
-             <a href="#">
+            <a href="#">
               <img src="<?php bloginfo ( 'template_url' ) ?>/img/logo.png" class="logo">
             </a>  
               <br>
@@ -23,7 +23,8 @@ get_header(); ?>
                 </a>
                 <a href="http://www.twitter.com">
                     <img src="<?php bloginfo ( 'template_url' ) ?>/img/some/twitter.png" class="some">
-                </a>         </center>
+                </a>
+          </center>
         </div>
     </div>
 
@@ -70,29 +71,25 @@ get_header(); ?>
 
           <div class="span11 well">
 
-              <div class="span3">
-              <!--le awesome flex slider-->
-                <div class="flexslider">
-                  <ul class="slides">
+              <div class="span7 home-container">
 
-                    <li>
-                      <img src="<?php bloginfo ( 'template_url' ) ?>/img/bollywood/1.jpg" class="img-polaroid" />
-                    </li>
+                                      <h2><?php the_title(); ?></h2>
+
+                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                  <?php the_content(); ?>
+                  <?php endwhile; endif; ?>
 
 
-                  </ul>
-                </div><!--Le Awesome slider ends :( -->
-              </div>
-              <div class="span4 home-container">
-                  <h2><?php the_title(); ?></h2>
 
-                  <p>                  
-                  This module is uniquely designed and executed by the “S” community where the participant learns the appropriate  dance moves to latest Bollywood numbers in a span of either 8 or 12 classes. A class starts with a warm up, moves to recap the previous routines, and then to New routines for the day, and finally ends with Cool down. End of every course the participant, learns to dance for the full song, chosen for the particular month. This class provides a combination of learning to dance whilst exercising.
-                  </p>
 
 
               </div>
-        <?php get_sidebar('page'); ?>
+
+<?php get_sidebar('page'); ?>
+              </div>
+
+              
+
           </div><!--well-->
 
         </div><!--span12-->
@@ -102,3 +99,8 @@ get_header(); ?>
 </div><!-- /.marketing -->
 </div>
 <?php get_footer();?>
+
+
+
+
+
