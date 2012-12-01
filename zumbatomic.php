@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Zumba Page
+ * Template Name: Zumbatomic Page
  *
  *
  * @package WP-Bootstrap
@@ -70,21 +70,21 @@ get_header(); ?>
         <div class="span12">
 
             <div class="span2"></div>
-            <div class="span8 well"> <!--main content area-->
+            <div class="span7 well"> <!--main content area-->
 
                       <!--=============================================The Tabs=============================================-->
                       <ul id="myTab" class="nav nav-pills zumbatabs">
-                        <li class="active"><a href="#zumba" data-toggle="tab">Zumba</a></li>
+                        <li class=""><a href="#zumba" data-toggle="tab">Zumba</a></li>
                         <li class=""><a href="#zumba_certifications" data-toggle="tab">Zumba Certifications</a></li>
                         <li class=""><a href="#aqua_zumba" data-toggle="tab">Aqua Zumba</a></li>
-                        <li class=""><a href="#zumbatomic" data-toggle="tab">Zumbatomic</a></li>
+                        <li class="active"><a href="#zumbatomic" data-toggle="tab">Zumbatomic</a></li>
                         <li class=""><a href="#zumba-activities" data-toggle="tab">Zumba Activities</a></li>
                         <li class=""><a href="#testimonials" data-toggle="tab">Testimonials</a></li>
                         
                       </ul>
 
                       <div id="myTabContent" class="tab-content">
-                        <div class="tab-pane fade active in" id="zumba">
+                        <div class="tab-pane fade" id="zumba">
                               <div class="span2">
                                   <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/home1.jpg" class="img-rounded img-polaroid">
                               </div>
@@ -100,7 +100,7 @@ get_header(); ?>
                           <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/aqua.jpg">
                           <p>Known as the Zumba “pool party”, the aqua Zumba program gives new meaning to the idea of an invigorating workout. Intergrating the Zumba formula and philosophy with traditional aqua fitness disciplines, the Aqua Zumba class blends it all together into a safe, challenging, water based workout that’s cardio conditioning and most of all, exhilarating beyond belief.</p>
                         </div>
-                        <div class="tab-pane fade" id="zumbatomic">
+                        <div class="tab-pane fade active in" id="zumbatomic">
                           <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/zumbatomic.gif">
                           <p>Zumbatomic is a specially designed class for children (ages 4 – 12) to encourage kids to develop a healthy lifestyle and to incorporate fitness as a natural part of their lives through dance, music and exercise. Kids will learn cool dance steps and routines while listening to kid friendly songs.</p>
                         </div>

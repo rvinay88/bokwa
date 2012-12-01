@@ -22,19 +22,26 @@
           <?php endwhile; endif; ?>     
           <hr>     
 
-          <?php wp_reset_query(); ?>
           <h5> Testimonials </h5>
   
-  <?php $query = new WP_Query( 'post_type=testimonials' ); ?>
-
-          
+            
               <!--le awesome flex slider-->
         <div class="flexslider">
               <ul class="slides">
                 <li>
                   <blockquote>
-                    <p><?php echo the_excerpt(); ?></p>
-                    <small><?php echo the_title(); ?></small>
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/jo.jpg" class="img-rounded">
+                    <p>Senthil sir's Zumba is full of life, smiles and the music...He is an ace Zumba sir, highly qualified with a lot of positive energy
+                      <a href="<?php bloginfo ( 'wpurl' ) ?>/instructors/zumba/testimonials">Read More</a>
+                    </p>
+                    <small>Jyothika Surya, Actress</small>
+                  </blockquote>
+                </li>
+                <li>
+                  <blockquote>
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/suhasini.jpg" class="img-rounded">
+                    <p>Senthil sir's Zumba is full of life, smiles and the music...He is an ace Zumba sir, highly qualified with a lot of positive energy</p>
+                    <small>Suhasini Mani Ratnam, Feminist</small>
                   </blockquote>
                 </li>
               </ul>

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Performers Page
+ * Template Name: Instructors 2
  *
  *
  * @package WP-Bootstrap
@@ -18,7 +18,7 @@ get_header(); ?>
               <img src="<?php bloginfo ( 'template_url' ) ?>/img/logo.png" class="logo">
             </a>  
               <br>
-                 <a href="http://www.facebook.com">
+                 <a href="http://www.facebook.com/pages/The-s-community-of-entertainment/303645796319228">
                     <img src="<?php bloginfo ( 'template_url' ) ?>/img/some/facebook.png" class="some">
                 </a>
                 <a href="http://www.twitter.com">
@@ -82,7 +82,7 @@ The S Community performers started as a college dance team, and slowly evolved t
 
       <ul class="ch-grid">
           <li>
-            <a href="<?php bloginfo ( 'wpurl' ) ?>/zumba/">
+            <a href="<?php bloginfo ( 'wpurl' ) ?>/instructors/zumba/">
               <div class="ch-item ins-1">
                   <div class="ch-info">
                       <h3>Zumba, Zumbatomic, Aqua Zumba</h3>
@@ -92,7 +92,7 @@ The S Community performers started as a college dance team, and slowly evolved t
             </a>
           </li>
           <li>
-            <a href="<?php bloginfo ( 'wpurl' ) ?>/bokwa/">
+            <a href="<?php bloginfo ( 'wpurl' ) ?>/instructors/bokwa/">
               <div class="ch-item ins-2">
                   <div class="ch-info">
                       <h3>Bokwa Fitness</h3>
@@ -102,20 +102,20 @@ The S Community performers started as a college dance team, and slowly evolved t
             </a>
           </li>
           <li>
-            <a href="<?php bloginfo ( 'wpurl' ) ?>/kids/">
+            <a href="<?php bloginfo ( 'wpurl' ) ?>/instructors/bollywood/">
               <div class="ch-item ins-3">
                   <div class="ch-info">
-                      <h3>Specially designed class for children (ages 4 – 12)</h3>
+                      <h3>Dance to the latest Bollywood numbers</h3>
                      
                   </div>
               </div>
             </a>
           </li>
           <li>
-            <a href="<?php bloginfo ( 'wpurl' ) ?>/bollywood/">
+            <a href="<?php bloginfo ( 'wpurl' ) ?>/instructors/zumba/zumbatomic">
               <div class="ch-item ins-4">
                   <div class="ch-info">
-                      <h3>Dance to the latest Bollywood numbers</h3>
+                      <h3>Kids classes - specially designed for children (ages 4 – 12)</h3>
                      
                   </div>
               </div>
