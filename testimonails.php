@@ -94,6 +94,7 @@ get_header(); ?>
                               </div>
                         </div>
                         <div class="tab-pane fade" id="zumba_certifications">
+                          
                            <div id="myCarousel2" class="carousel slide">
                             <!-- Carousel items -->
                             <div class="carousel-inner">
