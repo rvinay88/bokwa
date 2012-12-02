@@ -94,7 +94,39 @@ get_header(); ?>
                               </div>
                         </div>
                         <div class="tab-pane fade" id="zumba_certifications">
-                          <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                           <div id="myCarousel2" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                              <div class="active item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/cert/b1.jpg" class="img-rounded">
+                                <div class="carousel-caption">
+                                  <h4>Zumba Basic 1 with Hermann Melow at Mumbai, India</h4>
+                                </div>                                  
+                              </div>
+                              <div class="item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/cert/b2.jpg" class="img-rounded">
+                                <div class="carousel-caption">
+                                  <h4>Zumba Basic 2 with Kelly Bullard at Mumbai, India</h4>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/cert/za.jpg" class="img-rounded">
+                                <div class="carousel-caption">
+                                  <h4>ZumbAtomic with Maria Teressa Stone at Manila, Philippines</h4>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/cert/az.jpg" class="img-rounded">
+                                <div class="carousel-caption">
+                                  <h4>Aqua Zumba with Kelly Bullard at Bengaluru, India</h4>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Carousel nav -->
+                            <a class="carousel-control left" href="#myCarousel2" data-slide="prev">&lsaquo;</a>
+                            <a class="carousel-control right" href="#myCarousel2" data-slide="next">&rsaquo;</a>
+                          </div>
+
                         </div>
                         <div class="tab-pane fade" id="aqua_zumba">
                           <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/aqua.jpg">
@@ -105,17 +137,55 @@ get_header(); ?>
                           <p>Zumbatomic is a specially designed class for children (ages 4 – 12) to encourage kids to develop a healthy lifestyle and to incorporate fitness as a natural part of their lives through dance, music and exercise. Kids will learn cool dance steps and routines while listening to kid friendly songs.</p>
                         </div>
                         <div class="tab-pane fade" id="zumba-activities">
-                          <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
+                                                    <div id="myCarousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                              <div class="active item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/license.jpg" class="img-rounded">
+                                <div class="carousel-caption">
+                                  <h4>Senthil, ZIN - Chennai's ONLY multiple certified. Licensed to teach Zumba, Aqua Zumba and ZumbAtomic</h4>
+                                </div>                                  
+                              </div>
+                              <div class="item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/zumba-party.jpg" class="img-rounded">
+                                <div class="carousel-caption">
+                                  <h4>Senthil, ZIN - Part of Chennai's first Zumba Party</h4>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/zumba-party2.jpg" class="img-rounded">
+                                <div class="carousel-caption">
+                                  <h4>Senthil, ZIN - Part of Chennai'"'s party featuring ZIN's from Chennai, Mumbai and France</h4>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/beach-party.jpg" class="img-rounded">
+                                <div class="carousel-caption">
+                                  <h4>Senthil, ZIN - Part of Chennai's first Zumba Beach Party</h4>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/indo-france.jpg" class="img-rounded">                              
+                                <div class="carousel-caption">
+                                  <h4>Senthil, ZIN - Indo France Zumba cultural exchange</h4>
+                                </div>
+                              </div>                              
+                            </div>
+                            <!-- Carousel nav -->
+                            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                          </div>
+
                         </div>
                         <div class="tab-pane fade active in" id="testimonials">
                           
               <!--le awesome flex slider-->
-              <div class="span1"></div>
-        <div class="flexslider span3">
+              
+        <div class="flexslider span6">
               <ul class="slides">
                 <li>
                   <blockquote>
-                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/jo.png" class="img-rounded">
+                   
                     <p>Senthil sir's Zumba is full of life, smiles and the music...He is an ace Zumba sir, highly qualified with a lot of positive energy
                       <a href="<?php bloginfo ( 'wpurl' ) ?>/instructors/zumba/testimonials">Read More</a>
                     </p>
@@ -124,21 +194,21 @@ get_header(); ?>
                 </li>
                 <li>
                   <blockquote>
-                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/devayani.jpg" class="img-rounded">
+                   
                     <p>I like Senthil's Zumba classes for the simple reason that it is SO much fun...So much that at end of the class, you don't even realise that you have had an hour of intese workout. </p>
                     <small>Devayani, Actress</small>
                   </blockquote>
                 </li>
                 <li>
                   <blockquote>
-                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/paul.jpg" class="img-rounded">
+                   
                     <p>on Senthil "The guy is interesting!". I raised an idea that I should have a premium floor in Kerala...and I would want Senthil Sir to play a key role in raising the standards through his multiple Zumba certifications!! Just loved his class!</p>
                     <small>Amala Paul, Actress</small>
                   </blockquote>
                 </li>
                  <li>
                   <blockquote>
-                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/surya.jpg" class="img-rounded">
+                  
                     <p>So thankful to you, sir! "My wife enjoys every class of yours!" I get to attend his classes, while I am not shooting, and realise that everytime the benchmark intensity goes higher and higher! People in the class just love it!! Congrats Senthil sir!!</p>
                     <small>Surya, Actor</small>
                   </blockquote>
@@ -146,7 +216,7 @@ get_header(); ?>
                                
                 <li>
                   <blockquote>
-                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/ramya.jpg" class="img-rounded">
+                  
                     <p>Someone as health conscious as me couldnt have asked for more than Senthil's Zumba classes. I try not to miss even a single day! Love Senthil's Zumba classes for the kind of intensity and fun it gives me!</p>
                     <small>Ramya, Actress</small>
                   </blockquote>

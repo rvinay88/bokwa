@@ -109,36 +109,33 @@ get_header(); ?>
                             <!-- Carousel items -->
                             <div class="carousel-inner">
                               <div class="active item">
-                                  
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/license.png" class="img-rounded">
+                                <div class="carousel-caption">
+                                  <h4>Senthil, ZIN - Chennai's ONLY multiple certified. Licensed to teach Zumba, Aqua Zumba and ZumbAtomic</h4>
+                                </div>                                  
                               </div>
                               <div class="item">
-                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/zumba party1.jpg">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/zumba-party.jpg" class="img-rounded">
                                 <div class="carousel-caption">
-                                  <h4>Senthil, ZIN - Part of Chennai"s first Zumba Beach Party</h4>
+                                  <h4>Senthil, ZIN - Part of Chennai's first Zumba Party</h4>
                                 </div>
                               </div>
                               <div class="item">
-                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/zumba-party.jpg">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/zumba-party2.jpg" class="img-rounded">
                                 <div class="carousel-caption">
-                                  <h4>Senthil, ZIN - Part of Chennai"s first Zumba Beach Party</h4>
+                                  <h4>Senthil, ZIN - Part of Chennai'"'s party featuring ZIN's from Chennai, Mumbai and France</h4>
                                 </div>
                               </div>
                               <div class="item">
-                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/zumba-party2.jpg">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/beach-party.jpg" class="img-rounded">
                                 <div class="carousel-caption">
-                                  <h4>Senthil, ZIN - Part of Chennai"s first Zumba Beach Party</h4>
+                                  <h4>Senthil, ZIN - Part of Chennai's first Zumba Beach Party</h4>
                                 </div>
                               </div>
                               <div class="item">
-                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/beach-party.jpg">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/indo-france.jpg" class="img-rounded">                              
                                 <div class="carousel-caption">
-                                  <h4>Senthil, ZIN - Part of Chennai"s first Zumba Beach Party</h4>
-                                </div>
-                              </div>
-                              <div class="item">
-                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/indo-france.jpg">                              
-                                <div class="carousel-caption">
-                                  <h4>Senthil, ZIN - Part of Chennai"s first Zumba Beach Party</h4>
+                                  <h4>Senthil, ZIN - Indo France Zumba cultural exchange</h4>
                                 </div>
                               </div>                              
                             </div>
