@@ -76,8 +76,8 @@ get_header(); ?>
                                       <h2><?php the_title(); ?></h2>
 
 <p>                  
-The S Community performers started as a college dance team, and slowly evolved to be one of the city’s famous dance crews, potraying various forms of dance (contemporary, Jazz, Hip hop, Salsa, Bollywood and freestyle ).</p>
-<p>The highlight of our performing academy has been over the usage of hand carrying and set property.Team “S” community, has represented India and clinched the runner up title at the International Modern Dance Competition held at Malaysia. We have completed over 1500 shows and and are still counting</p>
+  Our instructors specialize in the below categories:
+</p>
 
 
       <ul class="ch-grid">

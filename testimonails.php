@@ -109,25 +109,50 @@ get_header(); ?>
                         </div>
                         <div class="tab-pane fade active in" id="testimonials">
                           
-                          <!--le awesome flex slider-->
-                            <div class="flexslider span6">
-                                  <ul class="slides">
-                                    <li>
-                                      <blockquote>
-                                        <p>Zumba is a fun way of doing a high impact cardio workout, so what is most imp is enjoying it, which makes strain and stress take a back seat, and before you realize, the one hour of jumping and jiving is done. For this,  one requires a good Zumba instructor like Senthil who can keep you in grip with the right kind of enjoyable steps coordinated with high calorie-burning.   Senthil sir's Zumba is full of life, smiles and the music, songs n steps changing every month, which doesn't make the routine boring. He himself is an ace Zumba sir, highly qualified in the art n makes his presence  in every class worthwhile! I am personally addicted to this workout because there is something new to look out for each month, it's fun, there's a lot of positive energy involved and a fun way to kickstart the day. 3 cheers to Senthil sir n his team
-                                        
-                                        </p>
-                                        <small>Jyothika Surya, Actress</small>
-                                      </blockquote>
-                                    </li>
-                                    <li>
-                                      <blockquote>
-                                        <p>Senthil sir's Zumba is full of life, smiles and the music...He is an ace Zumba sir, highly qualified with a lot of positive energy</p>
-                                        <small>Suhasini Mani Ratnam, Feminist</small>
-                                      </blockquote>
-                                    </li>
-                                  </ul>
-                                </div><!--Le Awesome slider ends :( -->
+              <!--le awesome flex slider-->
+              <div class="span1"></div>
+        <div class="flexslider span3">
+              <ul class="slides">
+                <li>
+                  <blockquote>
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/jo.png" class="img-rounded">
+                    <p>Senthil sir's Zumba is full of life, smiles and the music...He is an ace Zumba sir, highly qualified with a lot of positive energy
+                      <a href="<?php bloginfo ( 'wpurl' ) ?>/instructors/zumba/testimonials">Read More</a>
+                    </p>
+                    <small>Jyothika Surya, Actress</small>
+                  </blockquote>
+                </li>
+                <li>
+                  <blockquote>
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/devayani.jpg" class="img-rounded">
+                    <p>I like Senthil's Zumba classes for the simple reason that it is SO much fun...So much that at end of the class, you don't even realise that you have had an hour of intese workout. </p>
+                    <small>Devayani, Actress</small>
+                  </blockquote>
+                </li>
+                <li>
+                  <blockquote>
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/paul.jpg" class="img-rounded">
+                    <p>on Senthil "The guy is interesting!". I raised an idea that I should have a premium floor in Kerala...and I would want Senthil Sir to play a key role in raising the standards through his multiple Zumba certifications!! Just loved his class!</p>
+                    <small>Amala Paul, Actress</small>
+                  </blockquote>
+                </li>
+                 <li>
+                  <blockquote>
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/surya.jpg" class="img-rounded">
+                    <p>So thankful to you, sir! "My wife enjoys every class of yours!" I get to attend his classes, while I am not shooting, and realise that everytime the benchmark intensity goes higher and higher! People in the class just love it!! Congrats Senthil sir!!</p>
+                    <small>Surya, Actor</small>
+                  </blockquote>
+                </li>
+                               
+                <li>
+                  <blockquote>
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/ramya.jpg" class="img-rounded">
+                    <p>Someone as health conscious as me couldnt have asked for more than Senthil's Zumba classes. I try not to miss even a single day! Love Senthil's Zumba classes for the kind of intensity and fun it gives me!</p>
+                    <small>Ramya, Actress</small>
+                  </blockquote>
+                </li>
+              </ul>
+            </div><!--Le Awesome slider ends :( -->
                         </div>                        
                       </div>
                       <!--=============================================The Tabs=============================================-->

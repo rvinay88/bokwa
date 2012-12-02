@@ -105,7 +105,50 @@ get_header(); ?>
                           <p>Zumbatomic is a specially designed class for children (ages 4 – 12) to encourage kids to develop a healthy lifestyle and to incorporate fitness as a natural part of their lives through dance, music and exercise. Kids will learn cool dance steps and routines while listening to kid friendly songs.</p>
                         </div>
                         <div class="tab-pane fade" id="zumba-activities">
-                          <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
+                          <div id="myCarousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                              <div class="active item">
+                                  
+                              </div>
+                              <div class="item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/zumba party1.jpg">
+                                <div class="carousel-caption">
+                                  <h4>Senthil, ZIN - Part of Chennai"s first Zumba Beach Party</h4>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/zumba-party.jpg">
+                                <div class="carousel-caption">
+                                  <h4>Senthil, ZIN - Part of Chennai"s first Zumba Beach Party</h4>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/zumba-party2.jpg">
+                                <div class="carousel-caption">
+                                  <h4>Senthil, ZIN - Part of Chennai"s first Zumba Beach Party</h4>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/beach-party.jpg">
+                                <div class="carousel-caption">
+                                  <h4>Senthil, ZIN - Part of Chennai"s first Zumba Beach Party</h4>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/activities/indo-france.jpg">                              
+                                <div class="carousel-caption">
+                                  <h4>Senthil, ZIN - Part of Chennai"s first Zumba Beach Party</h4>
+                                </div>
+                              </div>                              
+                            </div>
+                            <!-- Carousel nav -->
+                            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                          </div>
+
+
+
                         </div>
                         <div class="tab-pane fade" id="testimonials">
                           <!--le awesome flex slider-->

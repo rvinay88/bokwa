@@ -102,16 +102,20 @@ get_header(); ?>
                     <li>
                       <img src="<?php bloginfo ( 'template_url' ) ?>/img/perf/9.jpg" class="img-polaroid" />
                     </li>
+                    <li>
+                      <img src="<?php bloginfo ( 'template_url' ) ?>/img/perf/10.jpg" class="img-polaroid" />
+                    </li>
 
                   </ul>
                 </div><!--Le Awesome slider ends :( -->
               </div>
               <div class="span4 home-container">
                   <h2><?php the_title(); ?></h2>
-
-<p>                  
-The S Community performers started as a college dance team, and slowly evolved to be one of the city’s famous dance crews, potraying various forms of dance (contemporary, Jazz, Hip hop, Salsa, Bollywood and freestyle ).</p>
-<p>The highlight of our performing academy has been over the usage of hand carrying and set property.Team “S” community, has represented India and clinched the runner up title at the International Modern Dance Competition held at Malaysia. We have completed over 1500 shows and and are still counting</p>
+                  <div class="well-gray">
+                  <p>Team “S” community has represented India and clinched the runner up title at the <strong> International Modern Dance Competition </strong>held at Malaysia. We have completed <strong>over 1500 shows</strong> and counting...</p>
+                  </div>
+                  <p>
+                  The S Community performers started as a college dance team, and slowly evolved to be one of the city’s famous dance crews, potraying various forms of dance (contemporary, Jazz, Hip hop, Salsa, Bollywood and freestyle). The highlight of our performing academy has been over the usage of hand carrying and set property.</p>
 
               </div>
 
