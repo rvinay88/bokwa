@@ -88,7 +88,38 @@ get_header(); ?>
                               </div>
                         </div>
                         <div class="tab-pane fade" id="bokwa_certifications">
-                          <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                                                    <div id="myCarousel" class="carousel slide">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                              <div class="active item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/bokwa/bokwa-cert.jpg" class="img-rounded">
+                                <div class="carousel-caption">
+                                  <h4>Certified to train!</h4>
+                                </div>                                  
+                              </div>
+                             <div class="item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/bokwa/bcred.jpg" class="img-rounded">
+                                <div class="carousel-caption">
+                                  <h4>Scored a 100% in the training module!</h4>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/bokwa/bokwa-site-red.jpg" class="img-rounded">
+                                <div class="carousel-caption">
+                                  <h4>The one and ONLY instructor in all of India</h4>
+                                </div>
+                              </div>
+                              <div class="item">
+                                <img src="<?php bloginfo ( 'template_url' ) ?>/img/bokwa/mavi.jpg" class="img-rounded">                              
+                                <div class="carousel-caption">
+                                  <h4>Learnt Bokwa from the Founder himself!</h4>
+                                </div>
+                              </div>                              
+                            </div>
+                            <!-- Carousel nav -->
+                            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                          </div>
                         </div>
 
                       </di v>
