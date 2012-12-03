@@ -98,7 +98,7 @@ get_header(); ?>
               <a href="<?php bloginfo ( 'wpurl' ) ?>/dj/">
                 <div class="ch-item ch-img-4">
                   <div class="ch-info">
-                      <h3>House, techno</h3>
+                      <h3>House, techno, hip hop, club, electro</h3>
                       
                     </div>
                 </div>

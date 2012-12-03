@@ -81,6 +81,15 @@ get_header(); ?>
                     <li>
                       <img src="<?php bloginfo ( 'template_url' ) ?>/img/choreo/2.jpg" class="img-polaroid" />
                     </li>
+                    <li>
+                      <img src="<?php bloginfo ( 'template_url' ) ?>/img/choreo/3.png" class="img-polaroid" />
+                    </li>
+                    <li>
+                      <img src="<?php bloginfo ( 'template_url' ) ?>/img/choreo/4.jpg" class="img-polaroid" />
+                    </li>
+                    <li>
+                      <img src="<?php bloginfo ( 'template_url' ) ?>/img/choreo/5.jpg" class="img-polaroid" />
+                    </li>
 
                   </ul>
                 </div><!--Le Awesome slider ends :( -->

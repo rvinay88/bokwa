@@ -75,12 +75,20 @@ get_header(); ?>
               <!--le awesome flex slider-->
                 <div class="flexslider">
                   <ul class="slides">
-
+                    <li>
+                      <img src="<?php bloginfo ( 'template_url' ) ?>/img/dj/1.jpg" class="img-polaroid" />
+                    </li>
                     <li>
                       <img src="<?php bloginfo ( 'template_url' ) ?>/img/dj/2.jpg" class="img-polaroid" />
                     </li>
                     <li>
                       <img src="<?php bloginfo ( 'template_url' ) ?>/img/dj/3.jpg" class="img-polaroid" />
+                    </li>
+                    <li>
+                      <img src="<?php bloginfo ( 'template_url' ) ?>/img/dj/4.jpg" class="img-polaroid" />
+                    </li>
+                    <li>
+                      <img src="<?php bloginfo ( 'template_url' ) ?>/img/dj/5.jpg" class="img-polaroid" />
                     </li>
 
                   </ul>
