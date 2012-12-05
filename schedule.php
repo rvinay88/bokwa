@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Contact Page
+ * Template Name: Schedule
  *
  *
  * @package WP-Bootstrap
@@ -67,25 +67,174 @@ get_header(); ?>
     
 <!--======================bottom row======================-->
     <div class="row">
-        <div class="span12">
+        <div class="span12 well">
 
-          <div class="span11 well">
+          <div class="span12">
 
-              <div class="span7 home-container">
+              <div class="span11 home-container">
 
                                       <h2><?php the_title(); ?></h2>
 
-                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                  <?php the_content(); ?>
-                  <?php endwhile; endif; ?>
+<p>                  
+  The S community schedule is as follows...
+</p>
+
+
+     <table class="table table-bordered table-striped table-hover">
+  <tr>
+    <th>Time</th>
+    <th>Mon</th>
+    <th>Tue</th>
+    <th>Wed</th>
+    <th>Thu</th>
+    <th>Fri</th>
+    <th>Sat</th>
+    <th>Sun</th>
+  </tr>
+  <tr>
+  <th>7.30am-8.30am
+</th>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td><b>ZUMBA BASIC</b>-Bamboola Play School
+</td>
+  <td><b>ZUMBA BASIC</b>-Bamboola Play School
+</td>
+  </tr>
+  <tr>
+  <th>9am-1.30pm
+</th>
+  <td><b>KIDS</b>-Sunshine School
+</td>
+  <td><b>KIDS</b>-Sunshine School
+</td>
+  <td><b>KIDS</b>-Sunshine School
+</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  </tr>
+  <tr>
+  <th>
+9am-3pm</th>
+  <td></td>
+  <td></td>
+  <td><b>KIDS</b>-Balalok Matriculation
+</td>
+  <td></td>
+  <td><b>KIDS</b>-Balalok Matriculation
+</td>
+  <td></td>
+  <td></td>
+  </tr>
+  <tr>
+  <th>
+10am-11am</th>
+  <td><b>ZUMBA BASIC</b> -Evolve Fitness Studios<br>
+  <b>FITNESS CLASS</b>-Casa Apartments
+
+</td>
+  <td></td>
+  <td><b>ZUMBA BASIC</b> -Evolve Fitness Studios
+  <br>
+  <b>FITNESS CLASS</b>-Casa Apartments
+</td>
+  <td></td>
+  <td><b>ZUMBA BASIC</b> -Evolve Fitness Studios
+  <br>
+
+</td>
+  <td></td>
+  <td></td>
+  </tr>
+  <tr>
+  <th> 
+
+11am-12 NOON</th>
+  <td></td>
+  <td><b>ZUMBA BASIC</b>- O2 Besant Nagar</td>
+  <td></td>
+  <td><b>ZUMBA BASIC</b>- O2 Besant Nagar</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  </tr>
+  <tr>
+  <th>
+
+4pm-5pm</th>
+  <td><b>KIDS</b>-Bamboola Play school
+</td>
+  <td></td>
+  <td><b>KIDS</b>-Bamboola Play school
+</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  </tr>
+  <tr>
+  <th>
+5pm-6pm</th>
+  <td></td>
+  <td><b>ZUMBA BASIC</b>- Radisson Blu Egmore
+</td>
+  <td></td>
+  <td><b>ZUMBA BASIC</b>- Radisson Blu Egmore<br>
+  <b>KIDS</b>-Sunshine School
+
+</td>
+  <td><b>KIDS</b>-Sunshine School
+</td>
+  <td></td>
+  <td></td>
+  </tr>
+  <tr>
+  <th>
+
+6pm-7pm</th>
+  <td><b>BOLLYWOOD</b>-Evolve Fitness Studio
+</td>
+  <td></td>
+  <td><b>BOLLYWOOD</b>-Evolve Fitness Studio
+</td>
+  <td><b>KIDS</b>-Sunshine School<br>
+  <b>KIDS</b>-Sunshine School
+</td>
+  <td><b>BOLLYWOOD</b>-Evolve Fitness Studio<br>
+  
+</td>
+  <td></td>
+  <td></td>
+  </tr>
+
+  <tr>
+  <th>
 
 
 
+7pm- 8pm</th>
+  <td><b>ZUMBA BASIC</b>-Evolve Fitness Studio
+</td>
+  <td></td>
+  <td><b>ZUMBA BASIC</b>- Evolve Fitness Studio
+</td>
+  <td></td>
+  <td><b>ZUMBA BASIC</b>-Evolve Fitness Studio
+</td>
+  <td></td>
+  <td></td>
+  </tr>
+</table>
 
 
               </div>
 
-<?php get_sidebar('page'); ?>
+
               </div>
 
               
@@ -99,8 +248,3 @@ get_header(); ?>
 </div><!-- /.marketing -->
 </div>
 <?php get_footer();?>
-
-
-
-
-

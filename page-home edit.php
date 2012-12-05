@@ -21,7 +21,7 @@ get_header(); ?>
                  <a href="http://www.facebook.com/pages/The-s-community-of-entertainment/303645796319228">
                     <img src="<?php bloginfo ( 'template_url' ) ?>/img/some/facebook.png" class="some">
                 </a>
-                <a href="http://www.twitter.com">
+                <a href="http://twitter.com/thescommunity">
                     <img src="<?php bloginfo ( 'template_url' ) ?>/img/some/twitter.png" class="some">
                 </a>
           </center>

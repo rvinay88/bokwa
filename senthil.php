@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Contact Page
+ * Template Name: Senthil
  *
  *
  * @package WP-Bootstrap
@@ -67,25 +67,50 @@ get_header(); ?>
     
 <!--======================bottom row======================-->
     <div class="row">
-        <div class="span12">
+        <div class="span12 well">
 
-          <div class="span11 well">
+          <div class="span12">
 
-              <div class="span7 home-container">
+              <div class="span11 home-container">
 
                                       <h2><?php the_title(); ?></h2>
+                                      <div class="span3">
 
-                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                  <?php the_content(); ?>
-                  <?php endwhile; endif; ?>
+                                      <!--le awesome flex slider-->
+                                        <div class="flexslider">
+                                          <ul class="slides">
+                                            <li>
+                                              <img src="<?php bloginfo ( 'template_url' ) ?>/img/senthil/1.jpg" class="img-polaroid" />
+                                            </li>
+                                            <li>
+                                              <img src="<?php bloginfo ( 'template_url' ) ?>/img/senthil/2.jpg" class="img-polaroid" />
+                                            </li>
+                                            <li>
+                                              <img src="<?php bloginfo ( 'template_url' ) ?>/img/senthil/3.jpg" class="img-polaroid" />
+                                            </li>
+                                            <li>
+                                              <img src="<?php bloginfo ( 'template_url' ) ?>/img/senthil/4.jpg" class="img-polaroid" />
+                                            </li>
+                                          </ul>
+                                        </div><!--Le Awesome slider ends :( -->
 
-
-
-
+                                      </div>
+                                      <div class="span4 home-container">
+                                        <ul>
+                                            <li>Creative head, The S Community</li>
+                                            <li>Choreographer to have represented India in International dance competition clinching a runner up title </li>
+                                            <li>Recognized by City University New York USA  under art form dance </li>
+                                            <li>CUNY has done a short film "It's just not about dance" on Senthil's dance achievement</li>
+                                            <li>Multiple Zumba certified </li>
+                                            <li>First and only Bokwa certified in India</li>
+                                            <li>Efficient Emcee and a DJ </li>
+                                      </ul>
+                                      </div>
+                                      <?php get_sidebar('page'); ?>
 
               </div>
 
-<?php get_sidebar('page'); ?>
+
               </div>
 
               
@@ -99,8 +124,3 @@ get_header(); ?>
 </div><!-- /.marketing -->
 </div>
 <?php get_footer();?>
-
-
-
-
-

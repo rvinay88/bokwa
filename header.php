@@ -61,7 +61,7 @@
     <script type="text/javascript" charset="utf-8">
       $(window).load(function() {
         $('.flexslider').flexslider({animation: 'slide', controlNav: true, directionNav: true,});
-        $('.flexslider2').flexslider({animation: 'fade', controlNav: false, directionNav: false, slideshowSpeed: 4000, animationSpeed: 3000, randomize: true,});
+        $('.flexslider2').flexslider({animation: 'slide', controlNav: false, directionNav: false});
       });
     </script>
 <!--script and css added for flex slider -->
@@ -78,4 +78,4 @@
   
     <!-- End Header -->
               <!-- Begin Template Content -->
-<body <?php body_class(); ?>  data-spy="scroll" data-target=".bs-docs-sidebar" data-offset="10">              
+  <body <?php body_class(); ?>  data-spy="scroll" data-target=".bs-docs-sidebar" data-offset="10">                

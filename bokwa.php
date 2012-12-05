@@ -21,7 +21,7 @@ get_header(); ?>
                  <a href="http://www.facebook.com/pages/The-s-community-of-entertainment/303645796319228">
                     <img src="<?php bloginfo ( 'template_url' ) ?>/img/some/facebook.png" class="some">
                 </a>
-                <a href="http://www.twitter.com">
+                <a href="http://twitter.com/thescommunity">
                     <img src="<?php bloginfo ( 'template_url' ) ?>/img/some/twitter.png" class="some">
                 </a>
           </center>
@@ -72,13 +72,7 @@ get_header(); ?>
             <div class="span8 well"> <!--main content area-->
 
                       <!--=============================================The Tabs=============================================-->
-                      <ul id="myTab" class="nav nav-pills zumbatabs">
-                        <li class="active"><a href="#bokwa" data-toggle="tab">Bokwa</a></li>
-                        <li class=""><a href="#bokwa_certifications" data-toggle="tab">Bokwa Certifications</a></li>                     
-                      </ul>
 
-                      <div id="myTabContent" class="tab-content">
-                        <div class="tab-pane fade active in" id="bokwa">
                               <div class="span2">
                                   <img src="<?php bloginfo ( 'template_url' ) ?>/img/bokwa/bokwa.png" class="img-rounded img-polaroid">
                               </div>
@@ -86,9 +80,9 @@ get_header(); ?>
                                   <p>Bokwa Fitness is an exercise dance class that combines cardio conditioning, strength training and flexibility. Furthermore, it integrates customary African dance with boxing maneuvers. The name came from a combination of two other words; “BO” stands for light boxing and “KWA” symbolizes the traditional dance Kwaito.</p>
                                     
                               </div>
-                        </div>
-                        <div class="tab-pane fade" id="bokwa_certifications">
-                                                    <div id="myCarousel" class="carousel slide">
+                              <div class="span7">
+
+                          <div id="myCarousel" class="carousel slide">
                             <!-- Carousel items -->
                             <div class="carousel-inner">
                               <div class="active item">
@@ -119,12 +113,9 @@ get_header(); ?>
                             <!-- Carousel nav -->
                             <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
                             <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-                          </div>
-                        </div>
+                          </div>    
 
-                      </di v>
-                      <!--=============================================The Tabs=============================================-->
-                      
+                          </div><!--span7-->                                             
               </div> <!--main content area-->
 
           
