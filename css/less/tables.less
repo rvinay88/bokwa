@@ -8,7 +8,6 @@
 
 table {
   max-width: 100%;
-  background-color: @tableBackground;
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -27,6 +26,7 @@ table {
     text-align: left;
     vertical-align: top;
     border-top: 1px solid @tableBorder;
+    color: @white;
   }
   th {
     font-weight: bold;
@@ -149,7 +149,7 @@ table {
   tbody {
     tr:nth-child(odd) td,
     tr:nth-child(odd) th {
-      background-color: @tableBackgroundAccent;
+
     }
   }
 }
@@ -162,7 +162,7 @@ table {
   tbody {
     tr:hover td,
     tr:hover th {
-      background-color: @tableBackgroundHover;
+
     }
   }
 }
