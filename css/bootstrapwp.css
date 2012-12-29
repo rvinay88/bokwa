@@ -2442,7 +2442,7 @@ table [class*=span],
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
+  background-color: #000000;
   -webkit-border-radius: 14px;
   -moz-border-radius: 14px;
   border-radius: 14px;
@@ -2453,6 +2453,12 @@ table [class*=span],
 .well blockquote {
   border-color: #ddd;
   border-color: rgba(0, 0, 0, 0.15);
+}
+.well p {
+  color: #ffffff;
+}
+.well p h2 {
+  color: #ffffff;
 }
 .well-large {
   padding: 24px;
@@ -6122,7 +6128,7 @@ hr.soften {
 -------------------------------------------------- */
 .marketing {
   text-align: center;
-  color: #5a5a5a;
+  color: #ffffff;
 }
 .marketing h1 {
   margin: 60px 0 10px;

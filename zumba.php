@@ -69,15 +69,13 @@ get_header(); ?>
     <div class="row">
         <div class="span12">
 
-            <div class="span2"></div>
-            <div class="span7 well"> <!--main content area-->
+            <div class="span1"></div>
+            <div class="span8 well"> <!--main content area-->
 
                       <!--=============================================The Tabs=============================================-->
                       <ul id="myTab" class="nav nav-pills zumbatabs">
                         <li class="active"><a href="#zumba" data-toggle="tab">Zumba</a></li>
                         <li class=""><a href="#zumba_certifications" data-toggle="tab">Zumba Certifications</a></li>
-                        <li class=""><a href="#aqua_zumba" data-toggle="tab">Aqua Zumba</a></li>
-                        <li class=""><a href="#zumbatomic" data-toggle="tab">Zumbatomic</a></li>
                         <li class=""><a href="#zumba-activities" data-toggle="tab">Zumba Activities</a></li>
                         <li class=""><a href="#testimonials" data-toggle="tab">Testimonials</a></li>
                         
@@ -85,13 +83,16 @@ get_header(); ?>
 
                       <div id="myTabContent" class="tab-content">
                         <div class="tab-pane fade active in" id="zumba">
-                              <div class="span2">
                                   <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/home1.jpg" class="img-rounded img-polaroid">
-                              </div>
-                              <div class="span4">
+
+
                                   <p>Zumba is the only Latin-inspired dance that blends red-hot international music, created by Grammy Award-winning producers, and contagious steps to form a "fitness-party" that is downright addictive. </p>
                                     <p>Zumba involves dance and aerobic elements. Zumba's choreography incorporates hip-hop, soca, samba, salsa, merengue, mambo, martial arts, and some Bollywood and belly dance moves. Squats and lunges are also included.</p>
-                              </div>
+
+                          <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/aqua.jpg">
+                          <p>Known as the Zumba “pool party”, the aqua Zumba program gives new meaning to the idea of an invigorating workout. Intergrating the Zumba formula and philosophy with traditional aqua fitness disciplines, the Aqua Zumba class blends it all together into a safe, challenging, water based workout that’s cardio conditioning and most of all, exhilarating beyond belief.</p>
+                          <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/zumbatomic.gif">
+                          <p>Zumbatomic is a specially designed class for children (ages 4 – 12) to encourage kids to develop a healthy lifestyle and to incorporate fitness as a natural part of their lives through dance, music and exercise. Kids will learn cool dance steps and routines while listening to kid friendly songs.</p>                          
                         </div>
                         <div class="tab-pane fade" id="zumba_certifications">
                           
@@ -128,14 +129,6 @@ get_header(); ?>
                             <a class="carousel-control right" href="#myCarousel2" data-slide="next">&rsaquo;</a>
                           </div>
 
-                        </div>
-                        <div class="tab-pane fade" id="aqua_zumba">
-                          <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/aqua.jpg">
-                          <p>Known as the Zumba “pool party”, the aqua Zumba program gives new meaning to the idea of an invigorating workout. Intergrating the Zumba formula and philosophy with traditional aqua fitness disciplines, the Aqua Zumba class blends it all together into a safe, challenging, water based workout that’s cardio conditioning and most of all, exhilarating beyond belief.</p>
-                        </div>
-                        <div class="tab-pane fade" id="zumbatomic">
-                          <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/zumbatomic.gif">
-                          <p>Zumbatomic is a specially designed class for children (ages 4 – 12) to encourage kids to develop a healthy lifestyle and to incorporate fitness as a natural part of their lives through dance, music and exercise. Kids will learn cool dance steps and routines while listening to kid friendly songs.</p>
                         </div>
                         <div class="tab-pane fade" id="zumba-activities">
                                                     <div id="myCarousel" class="carousel slide">
@@ -181,35 +174,35 @@ get_header(); ?>
                         <div class="tab-pane fade" id="testimonials">
                           
               <!--le awesome flex slider-->
-              
-        <div class="flexslider span6">
+        <div class="flexslider">
               <ul class="slides">
                 <li>
                   <blockquote>
-                   
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/jo.png" class="img-rounded">
                     <p>Senthil sir's Zumba is full of life, smiles and the music...He is an ace Zumba sir, highly qualified with a lot of positive energy
                       <a href="<?php bloginfo ( 'wpurl' ) ?>/instructors/zumba/testimonials">Read More</a>
                     </p>
                     <small>Jyothika Surya, Actress</small>
                   </blockquote>
                 </li>
+
                 <li>
                   <blockquote>
-                   
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/devayani.png" class="img-rounded">
                     <p>I like Senthil's Zumba classes for the simple reason that it is SO much fun...So much that at end of the class, you don't even realise that you have had an hour of intese workout. </p>
                     <small>Devayani, Actress</small>
                   </blockquote>
                 </li>
                 <li>
                   <blockquote>
-                   
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/paul.png" class="img-rounded">
                     <p>on Senthil "The guy is interesting!". I raised an idea that I should have a premium floor in Kerala...and I would want Senthil Sir to play a key role in raising the standards through his multiple Zumba certifications!! Just loved his class!</p>
                     <small>Amala Paul, Actress</small>
                   </blockquote>
                 </li>
                  <li>
                   <blockquote>
-                  
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/surya.png" class="img-rounded">
                     <p>So thankful to you, sir! "My wife enjoys every class of yours!" I get to attend his classes, while I am not shooting, and realise that everytime the benchmark intensity goes higher and higher! People in the class just love it!! Congrats Senthil sir!!</p>
                     <small>Surya, Actor</small>
                   </blockquote>
@@ -217,7 +210,7 @@ get_header(); ?>
                                
                 <li>
                   <blockquote>
-                  
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/ramya.png" class="img-rounded">
                     <p>Someone as health conscious as me couldnt have asked for more than Senthil's Zumba classes. I try not to miss even a single day! Love Senthil's Zumba classes for the kind of intensity and fun it gives me!</p>
                     <small>Ramya, Actress</small>
                   </blockquote>
@@ -226,7 +219,7 @@ get_header(); ?>
             </div><!--Le Awesome slider ends :( -->
                         </div>                        
                       </div>
-                      <!--=============================================The Tabs=============================================-->
+                      <!--=============================================The Tabs============================================-->
                       
               </div> <!--main content area-->
 
