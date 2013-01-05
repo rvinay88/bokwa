@@ -72,7 +72,7 @@ get_header(); ?>
             <div class="span2"></div>
             <div class="span7 well"> <!--main content area-->
                 <div class="span2">
-                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/zumba/home1.jpg" class="img-rounded img-polaroid">
+                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/ins/4.png" class="img-rounded img-polaroid">
                 </div>
                 <div class="span4">
                     <p>Instructors from S community also specialize in teaching the art form DANCE to kids</p>

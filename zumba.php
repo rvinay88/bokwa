@@ -172,51 +172,62 @@ get_header(); ?>
 
                         </div>
                         <div class="tab-pane fade" id="testimonials">
-                          
-              <!--le awesome flex slider-->
-        <div class="flexslider2">
-              <ul class="slides">
-                <li>
+            <!--Carousel for testimonials-->              
+                      <div id="myCarousel1" class="carousel slide">
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+              <div class="active item">
+                <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/jo.png" class="img-rounded">
+                
+                  <p>Senthil sir's Zumba is full of life, smiles and the music...He is an ace Zumba sir, highly qualified with a lot of positive energy</p>
                   <blockquote>
-                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/jo.png" class="img-rounded">
-                    <p>Senthil sir's Zumba is full of life, smiles and the music...He is an ace Zumba sir, highly qualified with a lot of positive energy
-                      <a href="<?php bloginfo ( 'wpurl' ) ?>/instructors/zumba/testimonials">Read More</a>
-                    </p>
                     <small>Jyothika Surya, Actress</small>
                   </blockquote>
-                </li>
-
-                <li>
-                  <blockquote>
-                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/devayani.png" class="img-rounded">
-                    <p>I like Senthil's Zumba classes for the simple reason that it is SO much fun...So much that at end of the class, you don't even realise that you have had an hour of intese workout. </p>
+                
+              </div>
+              <div class="item">
+                <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/devayani.png" class="img-rounded">
+                
+                  <p>I like Senthil's Zumba classes for the simple reason that it is SO much fun...So much that at end of the class, you don't even realise that you have had an hour of intese workout. </p>
+                  <blockquote> 
                     <small>Devayani, Actress</small>
                   </blockquote>
-                </li>
-                <li>
+                
+              </div>
+              <div class="item">
+                <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/paul.png" class="img-rounded">
+                
+                  <p>on Senthil "The guy is interesting!". I raised an idea that I should have a premium floor in Kerala...and I would want Senthil Sir to play a key role in raising the standards through his multiple Zumba certifications!! Just loved his class!</p>
                   <blockquote>
-                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/paul.png" class="img-rounded">
-                    <p>on Senthil "The guy is interesting!". I raised an idea that I should have a premium floor in Kerala...and I would want Senthil Sir to play a key role in raising the standards through his multiple Zumba certifications!! Just loved his class!</p>
                     <small>Amala Paul, Actress</small>
                   </blockquote>
-                </li>
-                 <li>
+                
+              </div>
+              <div class="item">
+                <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/surya.png" class="img-rounded">
+                
+                  <p>So thankful to you, sir! "My wife enjoys every class of yours!" I get to attend his classes, while I am not shooting, and realise that everytime the benchmark intensity goes higher and higher! People in the class just love it!! Congrats Senthil sir!!</p>
                   <blockquote>
-                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/surya.png" class="img-rounded">
-                    <p>So thankful to you, sir! "My wife enjoys every class of yours!" I get to attend his classes, while I am not shooting, and realise that everytime the benchmark intensity goes higher and higher! People in the class just love it!! Congrats Senthil sir!!</p>
                     <small>Surya, Actor</small>
                   </blockquote>
-                </li>
-                               
-                <li>
+                
+              </div>
+              <div class="item">
+                <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/ramya.png" class="img-rounded">
+                
+                  <p>Someone as health conscious as me couldnt have asked for more than Senthil's Zumba classes. I try not to miss even a single day! Love Senthil's Zumba classes for the kind of intensity and fun it gives me!</p>
                   <blockquote>
-                    <img src="<?php bloginfo ( 'template_url' ) ?>/img/testimonials/ramya.png" class="img-rounded">
-                    <p>Someone as health conscious as me couldnt have asked for more than Senthil's Zumba classes. I try not to miss even a single day! Love Senthil's Zumba classes for the kind of intensity and fun it gives me!</p>
                     <small>Ramya, Actress</small>
                   </blockquote>
-                </li>
-              </ul>
-            </div><!--Le Awesome slider ends :( -->
+                
+              </div>                              
+            </div>
+            <!-- Carousel nav -->
+            <a class="carousel-control left" href="#myCarousel1" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#myCarousel1" data-slide="next">&rsaquo;</a>
+          </div>
+
+          <!--Carousel for testimonials-->
                         </div>                        
                       </div>
                       <!--=============================================The Tabs============================================-->

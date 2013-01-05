@@ -19,13 +19,8 @@ get_header(); ?>
 
 
 <div class="container">
-  
-
-
-
   <div class="row-fluid">
-
-<div class="span12">
+    <div class="span12">
   <br>
               <!--le awesome flex slider-->
         <div class="flexslider2">
@@ -55,10 +50,39 @@ get_header(); ?>
                 </a>
           </center>
 
-</div>
-<div class="span12">
+      </div>
+  </div><!--row fluid-->
+</div><!--container--> 
 
 
+
+<!--===========================Navbar=======================-->
+    <div class="navbar navbar-inverse navbar-relative-top">
+           <div class="navbar-inner">
+             <div class="container">
+           <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+          <?php
+           /** Loading WordPress Custom Menu  **/
+           wp_nav_menu( array(
+              'menu'            => 'main-menu',
+              'container_class' => 'nav-collapse',
+              'menu_class'      => 'nav',
+              'fallback_cb'     => '',
+              'menu_id' => 'main-menu',
+              'walker' => new Bootstrapwp_Walker_Nav_Menu()
+          ) ); ?>
+        </div>
+      </div>
+    </div>
+<!--===========================Navbar=======================-->
+<div class="container">
+  <div class="row-fluid">
+    <div class="span12">
       <ul class="ch-grid1">
           <li>
             
