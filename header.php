@@ -61,7 +61,7 @@
     <script type="text/javascript" charset="utf-8">
       $(window).load(function() {
         $('.flexslider').flexslider({animation: 'slide', controlNav: false, directionNav: true,});
-        $('.flexslider2').flexslider({animation: 'slide', controlNav: false, directionNav: false});
+        $('.flexslider2').flexslider({animation: 'slide', controlNav: false, directionNav: true});
       });
     </script>
 <!--script and css added for flex slider -->

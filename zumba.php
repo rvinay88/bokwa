@@ -174,7 +174,7 @@ get_header(); ?>
                         <div class="tab-pane fade" id="testimonials">
                           
               <!--le awesome flex slider-->
-        <div class="flexslider">
+        <div class="flexslider2">
               <ul class="slides">
                 <li>
                   <blockquote>
